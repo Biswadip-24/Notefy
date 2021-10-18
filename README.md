@@ -1,4 +1,4 @@
-# Notefy
+# NOTEFY
 Android Notes App
 
 # Designed in
