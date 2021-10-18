@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_back"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="60dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Log_In_to_continue"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:fontFamily="@font/ubuntu_light"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/login_email"
+            android:background="@drawable/rounded"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+
+            android:hint="@string/hint_email"
+            android:textColorHint="@color/white"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/white"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <!--To be able to use TextInputLayout and  passwordToggleEnabled, must
+    use : implementation 'com.google.android.material:material:1.4.0'-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:passwordToggleEnabled="true">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded"
+            android:id="@+id/login_password"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+
+            android:hint="@string/hint_password"
+            android:textColorHint="@color/white"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:inputType="textPassword"
+            android:textColor="@color/white"/>
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/Button_login"
+        android:layout_width="match_parent"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/rounded"
+        android:backgroundTint="@color/blue"
+        android:textSize="16sp"
+        android:fontFamily="@font/ubuntu_light"
+        android:text="@string/Log_In"/>
+
+    <TextView
+        android:id="@+id/TextView_forgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/forgot_password"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/ubuntu_light"
+        android:layout_marginTop="10dp"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/new_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity=""
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/rounded"
+        android:backgroundTint="@color/blue"
+        android:fontFamily="@font/ubuntu_light"
+        android:text="@string/new_user_signup"
+        android:textAllCaps="false"
+        android:layout_marginBottom="30dp"
+        android:textSize="16sp" />
+
+</LinearLayout>
