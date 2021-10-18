@@ -1,6 +1,11 @@
 # Notefy
 Android Notes App
 
+# Designed in
+Adobe XD
+# Built with
+Android Studio(Using JAVA)
+# APP
 ![image1](https://user-images.githubusercontent.com/63808921/137790183-1193b052-86fa-4e59-a26b-1cc2456adcec.jpg)
 ![image2](https://user-images.githubusercontent.com/63808921/137790185-d702f00c-428c-4a52-bbd1-d2b09e1bd0da.jpg)
 ![image3](https://user-images.githubusercontent.com/63808921/137790187-387966ab-bfd9-4cea-9423-646a2fe02234.jpg)
