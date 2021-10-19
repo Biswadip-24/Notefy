@@ -12,3 +12,6 @@ Android Studio(Using JAVA)
 ![image4](https://user-images.githubusercontent.com/63808921/137790190-50e8f384-96cf-4c78-a596-13680e7a76fa.jpg)
 ![image5](https://user-images.githubusercontent.com/63808921/137790192-f5276920-4df0-40a8-8153-5a2361306ee3.jpg)
 
+# Note for developers
+You need to create a FireBase account and connect the project to FireBase in order to test it in Android Studio.
+
