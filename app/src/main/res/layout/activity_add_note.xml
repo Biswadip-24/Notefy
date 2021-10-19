@@ -56,8 +56,9 @@
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="400dp"
+        android:layout_height="0dp"
         android:id="@+id/AddNote_textview_body"
+        android:layout_weight="1"
         android:hint="@string/hint_body"
         android:textColor="@color/white"
         android:layout_marginStart="20dp"
@@ -78,6 +79,7 @@
         android:textSize="28sp"
         android:layout_gravity="right"
         android:layout_marginRight="20dp"
-        android:layout_marginTop="20dp"/>
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"/>
 
 </LinearLayout>

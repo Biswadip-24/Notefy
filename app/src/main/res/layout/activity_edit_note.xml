@@ -56,11 +56,12 @@
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="400dp"
+        android:layout_height="0dp"
         android:id="@+id/EditNote_textview_body"
         android:text="@string/Sample_note_body"
         android:textColor="@color/white"
         android:layout_marginStart="20dp"
+        android:layout_weight="1"
         android:layout_marginEnd="20dp"
         android:padding="10dp"
         android:background="@drawable/rounded"
@@ -78,7 +79,8 @@
         android:textSize="28sp"
         android:layout_gravity="right"
         android:layout_marginRight="20dp"
-        android:layout_marginTop="20dp"/>
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"/>
 
 
 
